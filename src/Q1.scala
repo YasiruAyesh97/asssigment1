@@ -5,7 +5,7 @@ object Q1{
     println(wholesaleCost(60))
   }
   def temperatureConvert(c:Double) :Double = c*1.8 + 32
-  def volumeOfSphere(r:Double) : Double = (4/3) * math.Pi * math.pow(r,3)
+  def volumeOfSphere(r:Double) : Double = (4.0/3) * math.Pi * math.pow(r,3)
 
   def wholesaleCost(copy : Double) : Double = {
     val coverPrice :Double = 24.95
